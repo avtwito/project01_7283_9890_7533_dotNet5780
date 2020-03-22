@@ -1,0 +1,3 @@
+C:\Users\USER\OneDrive - g.jct.ac.il\Desktop\project01_7283_9890_7533_dotNet5780\BE\obj\Debug\netstandard2.0\BE.csprojAssemblyReference.cache
+C:\Users\USER\OneDrive - g.jct.ac.il\Desktop\project01_7283_9890_7533_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive - g.jct.ac.il\Desktop\project01_7283_9890_7533_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
