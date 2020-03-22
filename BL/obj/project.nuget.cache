@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2mZdFBd/jpF6oRPOV87GMyb1N6noNDYxa9ryGw4jhwmlC/QnmVVWlPKLChPKYVXvB2t7OjNxmsnl2Rgc15jbbw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BL\\BL.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\avish\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\avish\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
