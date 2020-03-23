@@ -2,10 +2,7 @@
 
 namespace BE
 {
-    enum Accesories
-    {
-        NotInterested = 0, Optional = 1, Must = 2
-    };
+
     public class GuestRequest
     {
          void ToString()//צריך להגדיר אותה
@@ -28,9 +25,10 @@ namespace BE
         int Garden;
         int ChildrenAttraction;
         
+        
     }
 
-    class BankAccount
+    public class BankAccount
     {
         void Tostring()
         {
@@ -45,7 +43,7 @@ namespace BE
         int BankAccountNumber;
     }
 
-    class Host
+    public class Host
     {
         void Tostring()
         {
@@ -62,12 +60,29 @@ namespace BE
 
     }
 
-    class HostingUnit
+    public class HostingUnit
     {
+        void Tostring()
+        {
+
+        }
+
         string HostingUnitKey;
         string HostKey;
         string HostringUnitName;
-        Diary[,] bool = new Diary[12, 31];
+        bool[,] Diary = new bool[31, 12];
     }
 
+    public class Order
+    {
+        void Tostring()
+        {
+
+        }
+
+        string HostingUnitKey;
+        string Name;
+        string CreateDate;
+        string OrderDate;
+    }
 }
