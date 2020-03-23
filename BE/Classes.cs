@@ -67,7 +67,7 @@ namespace BE
         string HostingUnitKey;
         string HostKey;
         string HostringUnitName;
-        Diary[,] bool = new Diary[12, 31];
+        bool[,] Diary = new bool[12, 31];
     }
 
 }
