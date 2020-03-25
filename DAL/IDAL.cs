@@ -5,6 +5,15 @@ using System.Collections.Generic;
 
 namespace DAL
 {
+    public void GenerateRequestKey()
+    {
+        int key = rnd.Next(10000000, 100000000);  // creates a number between 10000000 and 99999999
+        for (int i = 0; i < GuestRequestList.Count(); i++) // assuming we have up to 20 requests per instance
+        {
+            if(GuestRequsetList.GuestRequestKey.Items==key)
+        }
+    }
+
     public class IDAL
     {
        interface Idal
@@ -58,9 +67,11 @@ namespace DAL
                 Console.WriteLine("Do you want your hosting unit to have a children attraction?");
                 Console.WriteLine("Yes-0 /n Optional - 1 /n No - 2:");
                 int ChildrenAttraction= int.Parse(Console.ReadLine());
-
+                Guid g = Guid.NewGuid();
+                Console.WriteLine(g.ToString());
                 BE.GuestRequest temp;
                 temp.GuestRequestKey = GuestRequestKey;
+
                 
             }
 
@@ -94,7 +105,7 @@ namespace DAL
 
             public void DeleteHostingUnit(string HostingUnitKey)
             {
-               
+              
             }
 
             public void UpdateHostingUnit()
