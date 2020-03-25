@@ -23,7 +23,6 @@ namespace DAL
             public void AddGuestRequest()
             {
                 Console.WriteLine("Please enter the followings:");
-                int GuestRequestKey= int.Parse(Console.ReadLine());
                 Console.Write("Firstname:");
                 string FirstName = Console.ReadLine();
                 Console.Write("Lastname:");
