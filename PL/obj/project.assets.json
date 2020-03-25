@@ -65,19 +65,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\avish\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\PL\\PL.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\PL\\PL.csproj",
       "projectName": "PL",
-      "projectPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\PL\\PL.csproj",
-      "packagesPath": "C:\\Users\\avish\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\PL\\obj\\",
+      "projectPath": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\PL\\PL.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\PL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\avish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -90,11 +90,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj": {
-              "projectPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj"
+            "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj": {
+              "projectPath": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj"
             },
-            "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BL\\BL.vbproj": {
-              "projectPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BL\\BL.vbproj"
+            "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\BL\\BL.vbproj": {
+              "projectPath": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\BL\\BL.vbproj"
             }
           }
         }
@@ -117,21 +117,8 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\PL\\obj\\PL.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

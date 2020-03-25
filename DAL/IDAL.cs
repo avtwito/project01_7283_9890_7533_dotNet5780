@@ -68,42 +68,42 @@ namespace DAL
 
             public void DeleteHostingUnit()
             {
-                throw new NotImplementedException();
+               
             }
 
             public void UpdateHostingUnit()
             {
-                throw new NotImplementedException();
+               
             }
 
             public void AddOrder()
             {
-                throw new NotImplementedException();
+
             }
 
             public void UpdateOrder()
             {
-                throw new NotImplementedException();
+
             }
 
             public void ListHostingUnits()
             {
-                throw new NotImplementedException();
+
             }
 
             public void ListCustomers()
             {
-                throw new NotImplementedException();
+
             }
 
             public void ListOrders()
             {
-                throw new NotImplementedException();
+
             }
 
             public void ListBanks()
             {
-                throw new NotImplementedException();
+
             }
         }
 
