@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 namespace DS
 {
-    class DataSource
+    public class DataSource
     {
-        List<BE.GuestRequest> GuestRequsetList = new List<BE.GuestRequest>();
-        List<BE.BankAccount> BankAccountList = new List<BE.BankAccount>();
-        List<BE.Host> HostList = new List<BE.Host>();
-        List<BE.HostingUnit> HostingUnitList = new List<BE.HostingUnit>();
-        List<BE.Order> OrderList = new List<BE.Order>();
+        public List<BE.GuestRequest> GuestRequsetList = new List<BE.GuestRequest>();
+        public List<BE.BankAccount> BankAccountList = new List<BE.BankAccount>();
+        public List<BE.Host> HostList = new List<BE.Host>();
+        public List<BE.HostingUnit> HostingUnitList = new List<BE.HostingUnit>();
+        public List<BE.Order> OrderList = new List<BE.Order>();
     }
 }

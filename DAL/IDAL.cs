@@ -1,4 +1,7 @@
 ﻿using System;
+using DS;
+using System.Collections.Generic;
+
 
 namespace DAL
 {
@@ -58,6 +61,7 @@ namespace DAL
 
                 BE.GuestRequest temp;
                 temp.GuestRequestKey = GuestRequestKey;
+                
             }
 
             public void AddHostingUnit()
@@ -90,11 +94,7 @@ namespace DAL
 
             public void DeleteHostingUnit(string HostingUnitKey)
             {
-<<<<<<< HEAD
                
-=======
-                int a;
->>>>>>> cd46474169391a4a8c15b61229dde2f95fa61b06
             }
 
             public void UpdateHostingUnit()
@@ -132,6 +132,8 @@ namespace DAL
 
             }
         }
-
+ 
     }
+
+    
 }
