@@ -6,19 +6,19 @@ namespace BE
 {
     public enum pool
     {
-        yes=0, probably=1, no= 2
+        Yes=0, Optional=1, No= 2
     } 
     public enum Jacuzzi
     {
-        yes=0, probably=1, no= 2
+        Yes=0, Optional=1, No= 2
     } 
     public enum Garden
     {
-        yes=0, probably=1, no= 2
+        Yes=0, Optional=1, No= 2
     } 
     public enum ChildrensAttractions
     {
-        yes=0, probably=1, no= 2
+        Yes=0, Optional = 1, No= 2
     }
     public enum Area
     {
