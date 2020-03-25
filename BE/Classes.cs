@@ -5,27 +5,40 @@ namespace BE
 
     public class GuestRequest
     {
-         void ToString()//צריך להגדיר אותה
+        void ToString()//צריך להגדיר אותה
         {
 
         }
-        
-       static int GuestRequestKey;
-        string PrivateName;
-        string FamilyName;
+        public int GuestRequestKey   // property
+        {
+            get { return GuestRequestKey; }   // get method
+            set { GuestRequestKey = value; }  // set method
+        }
+       
+
+        public string FirstName   // property
+        {
+            get { return FirstName; }   // get method
+            set { FirstName = value; }  // set method
+        }
+        public string LastName   // property
+        {
+            get { return LastName; }   // get method
+            set { LastName = value; }  // set method
+        }
         string MailAddress;
         bool Status;
         string RegistrationDate;
         string EntryDate;
         string ReleaseDate;
-        string Area;
+        int Area;
         string SubArea;
         int Pool;
         int Jacuzzi;
         int Garden;
         int ChildrenAttraction;
         
-        
+
     }
 
     public class BankAccount
@@ -51,8 +64,8 @@ namespace BE
         }
 
         int HostNumber;
-        string PrivateName;
-        string FamilyName;
+        string FirstName;
+        string LastName;
         string PhoneNumber;
         string MailAddress;
         BankAccount HostBankAccount;

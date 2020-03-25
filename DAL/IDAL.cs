@@ -22,27 +22,50 @@ namespace DAL
         {
             public void AddGuestRequest()
             {
+                Console.WriteLine("Please enter the followings:");
                 int GuestRequestKey= int.Parse(Console.ReadLine());
-                string PrivateName = Console.ReadLine();
-                string FamilyName = Console.ReadLine();
+                Console.Write("Firstname:");
+                string FirstName = Console.ReadLine();
+                Console.Write("Lastname:");
+                string LastName = Console.ReadLine();
+                Console.Write("Email Address:");
                 string MailAddress = Console.ReadLine();
-                bool Status = bool.Parse(Console.ReadLine());
+                bool Status = true;
                 string RegistrationDate = Console.ReadLine();
                 string EntryDate = Console.ReadLine();
                 string ReleaseDate = Console.ReadLine();
-                string Area = Console.ReadLine();
+                
+                Console.WriteLine("Where do you want your hosting unit?");
+                Console.WriteLine("All - 0 /n North - 1 /n South - 2 /n Center - 3 /n Jerusalem - 4");
+                int Area = int.Parse(Console.ReadLine());
+
                 string SubArea = Console.ReadLine();
+
+                Console.WriteLine("Do you want your hosting unit to have a pool?");
+                Console.WriteLine("Yes-0 /n Optional - 1 /n No - 2:");
                 int Pool= int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Do you want your hosting unit to have a jacuzzi?");
+                Console.WriteLine("Yes-0 /n Optional - 1 /n No - 2:");
                 int Jacuzzi=int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Do you want your hosting unit to have a garden?");
+                Console.WriteLine("Yes-0 /n Optional - 1 /n No - 2:");
                 int Garden= int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Do you want your hosting unit to have a children attraction?");
+                Console.WriteLine("Yes-0 /n Optional - 1 /n No - 2:");
                 int ChildrenAttraction= int.Parse(Console.ReadLine());
+
+                BE.GuestRequest temp;
+                temp.GuestRequestKey = GuestRequestKey;
             }
 
             public void AddHostingUnit()
             {
                 string HostingUnitKey = Console.ReadLine();
                 string HostKey = Console.ReadLine();
-                string HostringUnitName = Console.ReadLine();
+                string HostingUnitName = Console.ReadLine();
 
                 bool[,] Diary = new bool[12, 31];
                 for (int i = 0; i < 12; i++)
@@ -66,9 +89,9 @@ namespace DAL
                 BankAccountNumber = int.Parse(Console.ReadLine());
             }
 
-            public void DeleteHostingUnit()
+            public void DeleteHostingUnit(string HostingUnitKey)
             {
-                throw new NotImplementedException();
+                int a;
             }
 
             public void UpdateHostingUnit()
