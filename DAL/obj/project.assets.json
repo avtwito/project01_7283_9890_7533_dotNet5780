@@ -212,19 +212,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {}
+    "C:\\Users\\avish\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\DAL\\obj\\",
+      "projectPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\avish\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\avish\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -237,11 +237,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj": {
-              "projectPath": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj"
+            "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj": {
+              "projectPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj"
             },
-            "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj": {
-              "projectPath": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj"
+            "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj": {
+              "projectPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj"
             }
           }
         }
@@ -272,7 +272,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   },

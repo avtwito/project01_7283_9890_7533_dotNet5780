@@ -45,41 +45,39 @@ namespace DAL
 
                 Console.WriteLine("Please enter the followings:");
                 Console.Write("Firstname:");
-                string FirstName = Console.ReadLine();
-                temp.
+                temp.FirstName = Console.ReadLine();
 
                 Console.Write("Lastname:");
-                string LastName = Console.ReadLine();
+                temp.LastName= Console.ReadLine();
+
                 Console.Write("Email Address:");
-                string MailAddress = Console.ReadLine();
+                temp.MailAddress = Console.ReadLine();
                 bool Status = true;
-                string RegistrationDate = Console.ReadLine();
-                string EntryDate = Console.ReadLine();
-                string ReleaseDate = Console.ReadLine();
+                temp.RegistrationDate = Console.ReadLine();
+                temp.EntryDate = Console.ReadLine();
+                temp.ReleaseDate = Console.ReadLine();
                 
                 Console.WriteLine("Where do you want your hosting unit?");
                 Console.WriteLine("All - 0 /n North - 1 /n South - 2 /n Center - 3 /n Jerusalem - 4");
-                int Area = int.Parse(Console.ReadLine());
+                temp.Area = int.Parse(Console.ReadLine());
 
-                string SubArea = Console.ReadLine();
+                temp.SubArea = Console.ReadLine();
 
                 Console.WriteLine("Do you want your hosting unit to have a pool?");
                 Console.WriteLine("Yes-0 /n Optional - 1 /n No - 2:");
-                int Pool= int.Parse(Console.ReadLine());
+                temp.Pool= int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Do you want your hosting unit to have a jacuzzi?");
                 Console.WriteLine("Yes-0 /n Optional - 1 /n No - 2:");
-                int Jacuzzi=int.Parse(Console.ReadLine());
+                temp.Jacuzzi=int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Do you want your hosting unit to have a garden?");
                 Console.WriteLine("Yes-0 /n Optional - 1 /n No - 2:");
-                int Garden= int.Parse(Console.ReadLine());
+                temp.Garden= int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Do you want your hosting unit to have a children attraction?");
                 Console.WriteLine("Yes-0 /n Optional - 1 /n No - 2:");
-                int ChildrenAttraction= int.Parse(Console.ReadLine());
-                Guid g = Guid.NewGuid();
-                Console.WriteLine(g.ToString());
+                temp.ChildrenAttraction= int.Parse(Console.ReadLine());
                 
             }
 
