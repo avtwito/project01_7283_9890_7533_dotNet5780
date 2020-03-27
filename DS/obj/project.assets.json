@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\avish\\.nuget\\packages\\": {}
+    "C:\\Users\\Owner\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj",
+      "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj",
       "projectName": "DS",
-      "projectPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj",
-      "packagesPath": "C:\\Users\\avish\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DS\\obj\\",
+      "projectPath": "C:\\Users\\Owner\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj",
+      "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Owner\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\avish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj": {
-              "projectPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj"
+            "C:\\Users\\Owner\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj": {
+              "projectPath": "C:\\Users\\Owner\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj"
             }
           }
         }
