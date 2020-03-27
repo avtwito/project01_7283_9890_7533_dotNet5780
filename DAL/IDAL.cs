@@ -48,7 +48,7 @@ namespace DAL
                 temp.FirstName = Console.ReadLine();
 
                 Console.Write("Lastname:");
-                temp.LastName= Console.ReadLine();
+                temp.LastName = Console.ReadLine();
 
                 Console.Write("Email Address:");
                 temp.MailAddress = Console.ReadLine();
@@ -56,46 +56,62 @@ namespace DAL
                 temp.RegistrationDate = Console.ReadLine();
                 temp.EntryDate = Console.ReadLine();
                 temp.ReleaseDate = Console.ReadLine();
-                
+
                 Console.WriteLine("Where do you want your hosting unit?");
                 Console.WriteLine("All - 0 /n North - 1 /n South - 2 /n Center - 3 /n Jerusalem - 4");
                 temp.Area = int.Parse(Console.ReadLine());
 
+                Console.WriteLine("Sub Area:");
                 temp.SubArea = Console.ReadLine();
 
                 Console.WriteLine("Do you want your hosting unit to have a pool?");
                 Console.WriteLine("Yes-0 /n Optional - 1 /n No - 2:");
-                temp.Pool= int.Parse(Console.ReadLine());
+                temp.Pool = int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Do you want your hosting unit to have a jacuzzi?");
                 Console.WriteLine("Yes-0 /n Optional - 1 /n No - 2:");
-                temp.Jacuzzi=int.Parse(Console.ReadLine());
+                temp.Jacuzzi = int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Do you want your hosting unit to have a garden?");
                 Console.WriteLine("Yes-0 /n Optional - 1 /n No - 2:");
-                temp.Garden= int.Parse(Console.ReadLine());
+                temp.Garden = int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Do you want your hosting unit to have a children attraction?");
                 Console.WriteLine("Yes-0 /n Optional - 1 /n No - 2:");
-                temp.ChildrenAttraction= int.Parse(Console.ReadLine());
-                
-            }
+                temp.ChildrenAttraction = int.Parse(Console.ReadLine());
+                GuestRequsetList.Add(temp);
 
-            public void AddHostingUnit()
+            }
+        }
+        public void AddHostingUnit()
+        {
+            BE.HostingUnit temp1;
+            int GenerateHostingUnitKey()
             {
-                string HostingUnitKey = Console.ReadLine();
-                string HostKey = Console.ReadLine();
-                string HostingUnitName = Console.ReadLine();
-
-                bool[,] Diary = new bool[12, 31];
-                for (int i = 0; i < 12; i++)
-                {
-                    for (int j = 0; j < 31; j++)
-                    {
-                        Diary[i, j] = false;
-                    }
-                }
+                 int key;
+            Label1:
+                 key = rnd.Next(10000000, 100000000);  // creates a number between 10000000 and 99999999
+                 for (int i = 0; i < HostingUnitList.Count(); i++)
+                 {
+                       if (HostingUnitList[i].HostingUnitKey == key)
+                       {
+                           goto Label1;
+                       }
+                 }
+                 return key;
             }
+           temp1.HostingUnitKey = GenerateHostingUnitKey();
+           temp1.HostKey = Console.ReadLine();
+           temp1.HostingUnitName = Console.ReadLine();
+
+           for (int i = 0; i < 12; i++)
+           {
+                for (int j = 0; j < 31; j++)
+                {
+                    temp1.Diary[i, j] = false;
+                }
+           }
+        }
 
             public void AddBankAccount()
             {

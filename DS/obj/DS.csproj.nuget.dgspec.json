@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj": {}
+    "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj": {
+    "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj",
+        "projectUniqueName": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj",
         "projectName": "BE",
-        "projectPath": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\BE\\obj\\",
+        "projectPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj",
+        "packagesPath": "C:\\Users\\avish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\avish\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +55,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj": {
+    "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj",
+        "projectUniqueName": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj",
         "projectName": "DS",
-        "projectPath": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\DS\\obj\\",
+        "projectPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DS\\DS.csproj",
+        "packagesPath": "C:\\Users\\avish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\avish\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj": {
-                "projectPath": "C:\\Users\\USER\\OneDrive - g.jct.ac.il\\Desktop\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj"
+              "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj": {
+                "projectPath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\BE\\BE.csproj"
               }
             }
           }
@@ -106,12 +106,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
