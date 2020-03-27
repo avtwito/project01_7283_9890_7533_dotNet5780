@@ -5,20 +5,6 @@ using System.Collections.Generic;
 
 namespace DAL
 {
-    public void GenerateRequestKey()
-    {
-        int key;
-    Label:
-        key = rnd.Next(10000000, 100000000);  // creates a number between 10000000 and 99999999
-        for (int i = 0; i < GuestRequestList.Count(); i++)
-        {
-            if (GuestRequsetList[i].GuestRequestKey == key)
-            {
-                goto Label;
-            }
-        }
-    }
-
     public class IDAL
     {
        interface Idal
@@ -34,14 +20,34 @@ namespace DAL
             void ListCustomers();
             void ListOrders();
             void ListBanks();
+            
         }
         public class Dal_imp : Idal
         {
             public void AddGuestRequest()
             {
+                BE.GuestRequest temp;
+                int GenerateRequestKey()
+                {
+                    int key;
+                Label:
+                    key = rnd.Next(10000000, 100000000);  // creates a number between 10000000 and 99999999
+                    for (int i = 0; i < GuestRequestList.Count(); i++)
+                    {
+                        if (GuestRequsetList[i].GuestRequestKey == key)
+                        {
+                            goto Label;
+                        }
+                    }
+                    return key;
+                }
+                temp.GuestRequestKey = GenerateRequestKey();
+
                 Console.WriteLine("Please enter the followings:");
                 Console.Write("Firstname:");
                 string FirstName = Console.ReadLine();
+                temp.
+
                 Console.Write("Lastname:");
                 string LastName = Console.ReadLine();
                 Console.Write("Email Address:");
@@ -74,9 +80,6 @@ namespace DAL
                 int ChildrenAttraction= int.Parse(Console.ReadLine());
                 Guid g = Guid.NewGuid();
                 Console.WriteLine(g.ToString());
-                BE.GuestRequest temp;
-                temp.GuestRequestKey = GuestRequestKey;
-
                 
             }
 

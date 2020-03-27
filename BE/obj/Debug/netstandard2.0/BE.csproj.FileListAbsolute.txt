@@ -13,3 +13,8 @@ C:\Users\USER\OneDrive - g.jct.ac.il\Desktop\project01_7283_9890_7533_dotNet5780
 C:\Users\USER\OneDrive - g.jct.ac.il\Desktop\project01_7283_9890_7533_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfoInputs.cache
 C:\Users\USER\OneDrive - g.jct.ac.il\Desktop\project01_7283_9890_7533_dotNet5780\BE\obj\Debug\netstandard2.0\BE.AssemblyInfo.cs
 >>>>>>> c66f0a7b5b2411e47174df052e4ac5c9ec2fbc43
+C:\Users\USER\OneDrive - g.jct.ac.il\Desktop\project01_7283_9890_7533_dotNet5780\BE\bin\Debug\netstandard2.0\BE.deps.json
+C:\Users\USER\OneDrive - g.jct.ac.il\Desktop\project01_7283_9890_7533_dotNet5780\BE\bin\Debug\netstandard2.0\BE.dll
+C:\Users\USER\OneDrive - g.jct.ac.il\Desktop\project01_7283_9890_7533_dotNet5780\BE\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\USER\OneDrive - g.jct.ac.il\Desktop\project01_7283_9890_7533_dotNet5780\BE\obj\Debug\netstandard2.0\BE.dll
+C:\Users\USER\OneDrive - g.jct.ac.il\Desktop\project01_7283_9890_7533_dotNet5780\BE\obj\Debug\netstandard2.0\BE.pdb
