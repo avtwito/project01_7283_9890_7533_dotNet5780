@@ -1,11 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "QLZVvMWpZP/YyW6UUHAdyOmRmjBjfjZ1cOkJtZwwHgRjjvCBYXjozi71uaVEkozY+Vu+0nrU2bbgr3TYKmo5GA==",
-  "success": true,
+  "dgSpecHash": "qX0NZplHRhbonyXnT4woLL5X3kXiyZdFDyeCqV7hSeMfUeJBZcMmtYNdwy0TCaKOmc3Y9rUmOxSr8v8VG1OcbQ==",
+  "success": false,
   "projectFilePath": "C:\\Users\\avish\\source\\repos\\project01_7283_9890_7533_dotNet5780\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\avish\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\avish\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DS is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project DS supports: netcoreapp3.0 (.NETCoreApp,Version=v3.0)",
+      "libraryId": "DS",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

@@ -7,10 +7,15 @@ namespace DAL
 {
     public void GenerateRequestKey()
     {
-        int key = rnd.Next(10000000, 100000000);  // creates a number between 10000000 and 99999999
-        for (int i = 0; i < GuestRequestList.Count(); i++) // assuming we have up to 20 requests per instance
+        int key;
+    Label:
+        key = rnd.Next(10000000, 100000000);  // creates a number between 10000000 and 99999999
+        for (int i = 0; i < GuestRequestList.Count(); i++)
         {
-            if(GuestRequsetList.GuestRequestKey.Items==key)
+            if (GuestRequsetList[i].GuestRequestKey == key)
+            {
+                goto Label;
+            }
         }
     }
 
